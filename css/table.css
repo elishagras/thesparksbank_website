@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  color: #25265e;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+table {
+  letter-spacing: 1.2px;
+}
+
+td {
+  text-align: center;
+}
+
+button {
+  border: none;
+  background: #8b9dee;
+  color: white;
+  transition: 1s;
+}
+
+@media only screen and (orientation: portrait) {
+  * {
+    letter-spacing: 1px;
+  }
+}
+
+body {
+  background: #7b9dee;
+  background: -webkit-linear-gradient(to left, #ffffff, #fff);
+  background: linear-gradient(to left, #ffffff, #fff);
+}
+.usertables{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+    width: 60%; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64,64,64,.7);
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+   
+   
+   }
+   .alltext{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    width: 60%; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64,64,64,.7);
+    border-radius: 12px 12px 12px 12px;
+    overflow: hidden; 
+   }
+   .button-table{
+    height: 2rem;
+    width: 7rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding-bottom: 25px;
+    background-color: rgb(75, 106, 153)
+}
+.button-table:hover {
+    background-color: #181b29;
+    color: white;
+}
