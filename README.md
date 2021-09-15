@@ -34,4 +34,4 @@ MySQL
 
 Website Flow: Home Page > View all Users > Select and View one User > Transfer Money > Select receiver > View all Users > View Transfer History.
 
-WEBSITE LINK : http://thesparksbank.epizy.com GITHUB LINK: 
+WEBSITE LINK : http://thesparksbank.epizy.com GITHUB LINK: https://github.com/elishagras/thesparksbank_website
